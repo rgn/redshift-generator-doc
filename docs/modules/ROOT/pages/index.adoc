@@ -33,3 +33,23 @@ To create a cross reference *to version 1.0 of this page from a page in Componen
 
 image::connections.png[]
 
+.Application sequence
+[mermaid, "aws-sequence", "svg"]
+....
+sequenceDiagram    
+  participant EventSource
+  participant Trigger
+  participant TriggerConfiguration
+  participant Lambda Function
+  participant ERM Cluster
+  participant biGENiUS application
+  participant biGENiUS runtime configuration
+  EventSource-->>Trigger: Retrieves event
+  Trigger->>TriggerConfiguration: Get configuration
+  TriggerConfiguration->>Trigger: Execution plan(, EMR sizing etc.)
+  Trigger-->>Lambda Function: Provides execution plan and start datetime
+  Lambda Function-->>ERM Cluster: provision cluster and add step for app with execution plan
+  ERM Cluster-->>biGENiUS application: starts with parameters
+  biGENiUS application->>biGENiUS runtime configuration: requests next step from execution plan
+  biGENiUS runtime configuration->>biGENiUS application: returns next step or signal that the plan is finished
+....
