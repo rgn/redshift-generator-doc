@@ -34,7 +34,7 @@ To create a cross reference *to version 1.0 of this page from a page in Componen
 image::connections.png[]
 
 .Application sequence
-[mermaid, "aws-sequence", "png"]
+[mermaid, "aws-sequence", "svg"]
 ....
 sequenceDiagram    
   participant EventSource
