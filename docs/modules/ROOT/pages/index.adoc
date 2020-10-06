@@ -33,5 +33,3 @@ To create a cross reference *to version 1.0 of this page from a page in Componen
 
 image::connections.png[]
 
-.Architecture in AWS
-image::aws-architektur.svg[Embedded,opts=inline]
