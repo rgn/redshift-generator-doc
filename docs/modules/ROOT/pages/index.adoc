@@ -1,4 +1,4 @@
-= Welcome to the Redshift Generator documentation!
+= Welcome to the Redshift Generator (Release 2) documentation!
 
 This is the automatic start page for version *{page-component-version}* of Redshift Generator.
 
