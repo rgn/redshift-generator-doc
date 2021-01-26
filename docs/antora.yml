@@ -1,6 +1,6 @@
 name: redshift-generator
 title: Redshift Generator
-version: latest
+version: feature-2
 nav:
 - modules/ROOT/nav.adoc
 - modules/feature-1/nav.adoc
