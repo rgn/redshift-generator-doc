@@ -7,3 +7,7 @@ That's my first line written in this asciidoctor file :-)
 # Feature 2
 
 just another feature
+
+# Feature 3
+
+This is the description of feature 3
