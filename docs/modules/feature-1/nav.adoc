@@ -1,1 +1,3 @@
 * xref:index.adoc[Feature-1]
+* xref:secondPage.adoc[My second page]
+** xref:mysection/thirdPage.adoc[My third page]
