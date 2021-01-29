@@ -1,0 +1,27 @@
+= Install required tools
+
+1. Python
+https://www.python.org/downloads/
+
+Todo: Auf Path etc. beim Installieren hinweisen
+
+1. Install Python modules with pip
+    a. dddd
+    a. ddd
+    a. dddd
+
+1. VS Code
+https://code.visualstudio.com/download
+
+1. ODBC 64-bit driver
+https://s3.amazonaws.com/redshift-downloads/drivers/odbc/1.4.14.1000/AmazonRedshiftODBC64-1.4.14.1000.msi
+
+1. JBeaver
+https://dbeaver.io/download/
+
+
+
+
+
+
+
