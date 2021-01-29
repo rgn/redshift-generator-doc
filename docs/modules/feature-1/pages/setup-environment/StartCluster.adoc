@@ -1,0 +1,29 @@
+= Start AWS Redshift Cluster
+
+Info: 
+1. Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script automatisiert gesichert und heruntergefahren, um Kosten zu sparen. Für das Hochfahren gibt es kein Script, das machen wir von Hand. Das Hochfahren dauert ca. 1 min.
+2. Ansprechpartner (Admins) sind: Andreas Böhm, Daniel Hillinger
+
+1.	Im Browser folgende URL aufrufen: https://989338499051.signin.aws.amazon.com/console
+
+2.	Dann Euren Benutzernamen und Passwort eingeben:
+3.	Jetzt Euren MFA Code auf dem Handy generieren und dann eingeben:
+
+
+4.	In der Management Console den Service Amazon Redshift aufrufen
+
+5.	In der Navigationsleiste links auf Clusters/Snapshots klicken
+6.	Jetzt wird die Liste der Snapshots angezeigt:
+Den Haken beim Snapshot zuoberst setzen und dann den Button Restore from Snapshot klicken
+7.	Nun wird folgende Seite angezeigt, hier lassen sich Properties verändern:
+
+a.	Ganz nach unten scrollen und auf den blau-weissen Button bei Additional configurations klicken
+
+b.	Die Optionen für zusätzliche Konfigurationen wird aufgeklappt. Hier bitte auf Network and security klicken:
+
+c.	Die Einstellung Publicly accessible auf Yes stellen:
+
+d.	Dann ganz unten rechts mit Restore Cluster from snapshot den Cluster starten
+
+e.	That’s it. 😊
+Es dauert nun ca. 5 min bis der Cluster wiederhergestellt ist und alle Datenbanken verwendet werden können.
