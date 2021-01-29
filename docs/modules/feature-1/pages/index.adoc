@@ -9,4 +9,4 @@ Note: Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script a
 
 1. Jetzt Euren MFA Code auf dem Handy generieren und dann eingeben:
 
-images::aws_login.png[AWS login page]
+image::aws_login.png[AWS login page]
