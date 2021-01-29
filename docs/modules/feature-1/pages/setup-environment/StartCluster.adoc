@@ -1,4 +1,4 @@
-= Start AWS Redshift Cluster
+== Start AWS Redshift Cluster
 
 NOTE: Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script automatisiert gesichert und heruntergefahren, um Kosten zu sparen. Für das Hochfahren gibt es kein Script, das machen wir von Hand. Das Hochfahren dauert ca. 1 min. Ansprechpartner (Admins) sind: Andreas Böhm, Daniel Hillinger.
 
