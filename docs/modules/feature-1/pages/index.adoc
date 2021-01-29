@@ -1,20 +1,7 @@
-= Feature 1
+== Level 1 Section Title
 
-== Redshift Cluster starten
+=== Level 2 Section Title
 
-NOTE: Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script automatisiert gesichert und heruntergefahren, um Kosten zu sparen. Für das Hochfahren gibt es kein Script, das machen wir von Hand. Das Hochfahren dauert ca. 1 min. Ansprechpartner (Admins) sind: Andreas Böhm, Daniel Hillinger.
-
-1. Im Browser folgende URL aufrufen: https://989338499051.signin.aws.amazon.com/console
-1. Dann Euren Benutzernamen und Passwort eingeben: aws_login.png
-
-1. Jetzt Euren MFA Code auf dem Handy generieren und dann eingeben:
-
-.AWS login page
-image::aws_login.png[]
-
-.Example source code
-[source,python]
-----
-var x = 5
-----
-
+Im Browser folgende URL aufrufen: https://989338499051.signin.aws.amazon.com/console
+Dann Euren Benutzernamen und Passwort eingeben: aws_login.png
+Jetzt Euren MFA Code auf dem Handy generieren und dann eingeben:

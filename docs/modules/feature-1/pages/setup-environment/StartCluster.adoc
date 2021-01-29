@@ -1,5 +1,7 @@
 = Start AWS Redshift Cluster
 
+NOTE: Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script automatisiert gesichert und heruntergefahren, um Kosten zu sparen. Für das Hochfahren gibt es kein Script, das machen wir von Hand. Das Hochfahren dauert ca. 1 min. Ansprechpartner (Admins) sind: Andreas Böhm, Daniel Hillinger.
+
 Info: 
 1. Der Cluster für unsere Redshift Datenbanken wird jeden Abend per Script automatisiert gesichert und heruntergefahren, um Kosten zu sparen. Für das Hochfahren gibt es kein Script, das machen wir von Hand. Das Hochfahren dauert ca. 1 min.
 2. Ansprechpartner (Admins) sind: Andreas Böhm, Daniel Hillinger
@@ -27,3 +29,12 @@ d.	Dann ganz unten rechts mit Restore Cluster from snapshot den Cluster starten
 
 e.	That’s it. 😊
 Es dauert nun ca. 5 min bis der Cluster wiederhergestellt ist und alle Datenbanken verwendet werden können.
+
+.AWS login page
+image::aws_login.png[]
+
+.Example source code
+[source,python]
+----
+var x = 5
+----
