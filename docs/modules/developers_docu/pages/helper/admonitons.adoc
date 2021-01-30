@@ -25,3 +25,9 @@ Use an example block to create an admonition that contains complex content, such
 * Source code
 * Images
 ====
+
+.Example source code
+[source,python]
+----
+var x = 5
+----
