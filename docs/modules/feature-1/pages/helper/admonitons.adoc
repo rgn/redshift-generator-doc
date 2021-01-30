@@ -1,0 +1,27 @@
+
+TIP: Don't divide by zero...
+
+NOTE: Don't divide by zero...
+
+IMPORTANT: Don't divide by zero...
+
+CAUTION: Don't divide by zero...
+
+WARNING: Don't divide by zero...
+
+----
+my code() {
+string example...    
+----
+
+
+[IMPORTANT]
+.Optional Title
+====
+Use an example block to create an admonition that contains complex content, such as (but not limited to):
+
+* Lists
+* Multiple paragraphs
+* Source code
+* Images
+====
