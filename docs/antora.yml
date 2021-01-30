@@ -3,4 +3,4 @@ title: Redshift Generator
 version: latest
 nav:
 - modules/ROOT/nav.adoc
-- modules/feature-1/nav.adoc
+- modules/developers_docu/nav.adoc

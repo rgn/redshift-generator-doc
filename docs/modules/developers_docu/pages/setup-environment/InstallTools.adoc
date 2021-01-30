@@ -30,4 +30,6 @@
 .. With *Test connection* you can test the settings
 .. Close the dialog with *OK*
 
-image::../../images/DBeaver_Connection_Redshift.png[]
+image::DBeaver_Connection_Redshift.png[]
+
+image::../../assets/images/DBeaver_Connection_Redshift.png[]
