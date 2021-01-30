@@ -41,6 +41,7 @@ No;Tool;Link;Important Notes
 | 2 | Python modules| (open command prompt and type ...) | 1. pip install pyodbc 
 
 2. pip install boto3
+
 |===
 
 NOTE: Remember the milk!
@@ -53,3 +54,14 @@ my code() {
 string example...    
 ----
 
+
+[IMPORTANT]
+.Optional Title
+====
+Use an example block to create an admonition that contains complex content, such as (but not limited to):
+
+* Lists
+* Multiple paragraphs
+* Source code
+* Images
+====
