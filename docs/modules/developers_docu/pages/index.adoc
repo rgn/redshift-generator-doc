@@ -1,7 +1,3 @@
-== Level 1 Section Title
+= Documentation for Generator and Template Developers for the Redshift Generator
 
-=== Level 2 Section Title
-
-Im Browser folgende URL aufrufen: https://989338499051.signin.aws.amazon.com/console
-Dann Euren Benutzernamen und Passwort eingeben: aws_login.png
-Jetzt Euren MFA Code auf dem Handy generieren und dann eingeben:
+NOTE: Here you'll find the information you need to setup your environment for the Redshift Generator.
