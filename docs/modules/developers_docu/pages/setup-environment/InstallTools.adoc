@@ -31,5 +31,3 @@
 .. Close the dialog with *OK*
 
 image::DBeaver_Connection_Redshift.png[]
-
-image::../../assets/images/DBeaver_Connection_Redshift.png[]
