@@ -1,6 +1,6 @@
 = Start AWS Redshift Cluster
 
-NOTE: The cluster for our Redshift databases is automatically backed up and shut down by script every evening at 8 p.m. (7 p.m. in winter) to save costs. There is no script for starting up, we do it manually. It takes about 1 minute to start up. In case you have trouble, administrators for AWS are: Andreas Böhm and Daniel Hillinger.
+NOTE: The cluster for our Redshift databases is automatically backed up and shut down by script every evening at 8 p.m. (7 p.m. in winter) to save costs. There is no script for starting up, we do it manually. It takes about 5 minutes to start up. In case you have trouble, administrators for AWS are: Andreas Böhm and Daniel Hillinger.
 
 == Steps for starting the Redshift Cluster
 
