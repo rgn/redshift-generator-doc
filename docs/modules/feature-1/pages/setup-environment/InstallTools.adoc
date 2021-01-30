@@ -1,9 +1,57 @@
+:icons: font 
+
 == Install required tools
 
-sdsdsdsdsd
-sdsdsad
-sd
-sda
-sd
-asd
-sda
+1. Python https://www.python.org/downloads/
+
+In the installer: Don't forget to select following options:
+
+2. Install Python modules with pip. Please open a command prompt.
+
+    a) pip install pyodbc
+    b) pip install boto3
+
+3. VS Code 
+4. ODBC 64-bit driver 
+5. JBeaver 
+
+.List of tools to be installed 
+[options="header,footer"]
+|=======================
+|=======================
+
+
+.List of tools to be installed 
+[format="csv", separator=";", options="header"]
+|===
+No;Tool;Link;Important Notes
+1; Python;https://www.python.org/downloads/ ;1. abcd + 2. defg
+2; Python modules ; (open command prompt) ; a) pip install pyodbc b) pip install boto3
+3;VS Code;https://code.visualstudio.com/download ;
+4;Redshift ODBC 64-bit driver  ;https://s3.amazonaws.com/redshift-downloads/drivers/odbc/1.4.14.1000/AmazonRedshiftODBC64-1.4.14.1000.msi;
+5    ;DBeaver Database Tool        ;https://dbeaver.io/download/           ;
+|===
+
+
+|===
+| No | Tool | Link | Important Notes
+
+| 1 | Python | https://www.python.org/downloads/ | 1. sssss
+
+2. xxxxx
+
+| 2 | Python modules| (open command prompt and type ...) | 1. pip install pyodbc 
+
+2. pip install boto3
+|===
+
+NOTE: Remember the milk!
+
+
+
+----
+my code() {
+
+string example...    
+----
+
