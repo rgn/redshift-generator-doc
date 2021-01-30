@@ -7,16 +7,16 @@ NOTE: The cluster for our Redshift databases is automatically backed up and shut
 .	Call up the following URL with the browser: https://989338499051.signin.aws.
 amazon.com/console
 
-. Enter user name and password +
-. Generate MFA code on your smartphone and then enter it
+. Enter user name and password (see figure 1 below) +
+. Generate MFA code on your smartphone and then enter it (see figure 2)
 . In Management Console: Call the service Amazon Redshift
-. Click on Clusters / Snapshots in the navigation bar on the left
+. Click on Clusters / Snapshots in the navigation bar on the left (see figure 3)
 . The list of snapshots is now displayed: +
-  Tick the snapshot at the top and then click the *Restore from Snapshot* button
+  Tick the snapshot at the top and then click the *Restore from Snapshot* button (see figure 4)
 . The following page is now displayed, here properties can be changed:
-.. Expand *Cluster permissions* and attach the IAM role *SpectrumReadOnly*
-.. Scroll all the way down and click on the blue-white button for Additional configurations
-.. The options for additional configurations will be expanded. Please click here on Network and security:
+.. Expand *Cluster permissions* and attach the IAM role *SpectrumReadOnly* (see figure 5)
+.. Scroll all the way down and click on the blue-white button for Additional configurations (see figure 6)
+.. The options for additional configurations will be expanded. Please click here on Network and security (see figure 7):
 ..	Set the setting *Publicly accessible* to Yes:
 ..	Then start the cluster at the bottom right with *Restore Cluster* from snapshot
 ..	That’s it. 😊
@@ -35,8 +35,8 @@ image::snapshots.png[]
 .Restore Snapshot
 image::RestoreSnapshot.png[]
 
-.Atache IAM Role "SpectrumReadOnly"
-image::Attach_IAM_Role
+.Atach IAM Role "SpectrumReadOnly"
+image::Attach_IAM_Role.png[]
 
 .Additional Configurations
 image::AdditionalConfigurations.png[]
