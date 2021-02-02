@@ -1,0 +1,3 @@
+= Documentation for Generator and Template Developers for the Redshift Generator
+
+NOTE: Here you'll find the information you need to setup your environment for the Redshift Generator.

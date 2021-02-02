@@ -52,4 +52,4 @@ sequenceDiagram
   ERM Cluster-->>biGENiUS application: starts with parameters
   biGENiUS application->>biGENiUS runtime configuration: requests next step from execution plan
   biGENiUS runtime configuration->>biGENiUS application: returns next step or signal that the plan is finished
-....
+  

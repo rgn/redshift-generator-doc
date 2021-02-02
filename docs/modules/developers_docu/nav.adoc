@@ -1,0 +1,5 @@
+* xref:index.adoc[Infrastructure Developer]
+//* xref:secondPage.adoc[Infrastructure Developer]
+** xref:setup-environment/InstallTools.adoc[Install Tools]
+** xref:setup-environment/StartCluster.adoc[Start Redshift Cluster]
+** xref:setup-environment/VMInAzureCloud.adoc[VM in Azure Cloud]

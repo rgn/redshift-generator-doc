@@ -1,0 +1,7 @@
+= VM in Azure Cloud
+
+NOTE: This VM is used for testing and development of biGENiUS Meta Databases and also Runtime-Config-Databases.
+
+NOTE: The VM is automatically shut down every evening at 8 p.m. This means that it has to be started manually in the morning via the Azure portal.  
+
+CAUTION: This article is still under construction ...

@@ -1,0 +1,50 @@
+= Start AWS Redshift Cluster
+
+NOTE: The cluster for our Redshift databases is automatically backed up and shut down by script every evening at 8 p.m. (7 p.m. in winter) to save costs. There is no script for starting up, we do it manually. It takes about 5 minutes to start up. In case you have trouble, administrators for AWS are: Andreas Böhm and Daniel Hillinger.
+
+== Steps for starting the Redshift Cluster
+
+.	Call up the following URL with the browser: https://989338499051.signin.aws.
+amazon.com/console
+
+. Enter user name and password (see figure 1 below) +
+. Generate MFA code on your smartphone and then enter it (see figure 2)
+. In Management Console: Call the service Amazon Redshift
+. Click on Clusters / Snapshots in the navigation bar on the left (see figure 3)
+. The list of snapshots is now displayed: +
+  Tick the snapshot at the top and then click the *Restore from Snapshot* button (see figure 4)
+. The following page is now displayed, here properties can be changed:
+.. Expand *Cluster permissions* and attach the IAM role *SpectrumReadOnly* (see figure 5)
+.. Scroll all the way down and click on the blue-white button for Additional configurations (see figure 6)
+.. The options for additional configurations will be expanded. Please click here on Network and security (see figure 7):
+..	Set the setting *Publicly accessible* to Yes:
+..	Then start the cluster at the bottom right with *Restore Cluster* from snapshot
+..	That’s it. 😊
+
+It now takes about 5 minutes until the cluster is restored and all databases can be used.
+
+.Create cluster from snapshot
+image::CreateClusterFromSnapshot.gif[]
+
+.AWS login page
+image::aws_login.png[]
+
+.Enter MFA Code
+image::mfa.png[]
+
+.Clusters / Snapshots
+image::snapshots.png[]
+
+.Restore Snapshot
+image::RestoreSnapshot.png[]
+
+.Atach IAM Role "SpectrumReadOnly"
+image::Attach_IAM_Role.png[]
+
+.Additional Configurations
+image::AdditionalConfigurations.png[]
+
+.Network and Security
+image::NetworkAndSecurity.png[]
+
+
