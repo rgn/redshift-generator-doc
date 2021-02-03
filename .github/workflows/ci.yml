@@ -26,9 +26,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.CROSS_REPOSITORY_PAT }}
-          submodules: true
         
       - name: GitHub Script
         uses: actions/github-script@v3.1.0
