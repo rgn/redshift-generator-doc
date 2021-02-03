@@ -15,10 +15,8 @@ on:
     branches: [ development, feature-*, feature/*, release-*, release/* ]
     paths:
     - '**.adoc'
-<<<<<<< HEAD
+
   workflow_dispatch:
-=======
->>>>>>> 8e751bd6e56db45692d2e7d9c690b41ad0b11438
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
