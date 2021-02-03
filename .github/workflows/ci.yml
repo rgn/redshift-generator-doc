@@ -15,7 +15,10 @@ on:
     branches: [ development, feature-*, feature/*, release-*, release/* ]
     paths:
     - '**.adoc'
+<<<<<<< HEAD
   workflow_dispatch:
+=======
+>>>>>>> 8e751bd6e56db45692d2e7d9c690b41ad0b11438
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,7 +30,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+<<<<<<< HEAD
                 
+=======
+        
+>>>>>>> 8e751bd6e56db45692d2e7d9c690b41ad0b11438
       - name: GitHub Script
         uses: actions/github-script@v3.1.0
         with:
