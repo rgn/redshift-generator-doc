@@ -4,8 +4,7 @@ NOTE: The cluster for our Redshift databases is automatically backed up and shut
 
 == Steps for starting the Redshift Cluster
 
-.	Call up the following URL with the browser: https://989338499051.signin.aws.
-amazon.com/console
+.	Call up the following URL with the browser: https://989338499051.signin.aws.amazon.com/console
 
 . Enter user name and password
 +
